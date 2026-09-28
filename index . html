@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SpendWise Dashboard</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="dashboard">
+
+		<!-- Sidebar -->
+		<aside class="sidebar">
+			<h2 class="logo">SpendWise</h2>
+
+			<nav class="navigation">
+				<a href="#" class="nav-link active">🏠 Dashboard</a>
+				<a href="#" class="nav-link">💳 Transactions</a>
+				<a href="#" class="nav-link">📊 Reports</a>
+				<a href="#" class="nav-link">🎯 Savings Goals</a>
+				<a href="#" class="nav-link">⚙️ Settings</a>
+			</nav>
+
+			<div class="sidebar-footer">
+				<p>Personal Finance</p>
+				<small>Manage your money wisely.</small>
+			</div>
+		</aside>
+
+		<!-- Main Content -->
+		<main class="main-content">
+
+			<!-- Header -->
+			<header class="header">
+				<div class="welcome">
+					<h1>Dashboard</h1>
+					<p>Welcome back! Here's your financial overview.</p>
+				</div>
+
+				<div class="profile">
+					<span class="notification">🔔</span>
+					<div class="avatar">F</div>
+					<span>Fredrick</span>
+				</div>
+			</header>
+
+			<!-- Summary -->
+			<section class="summary">
+				<div>
+					<p>Total Monthly Budget</p>
+					<h2>KSh 80,000</h2>
+				</div>
+
+				<div>
+					<p>Total Spent</p>
+					<h2>KSh 52,500</h2>
+				</div>
+
+				<div>
+					<p>Remaining Balance</p>
+					<h2>KSh 27,500</h2>
+				</div>
+			</section>
+
+			<!-- Category Cards -->
+			<section class="categories">
+				<div class="section-heading">
+					<h2>Expense Categories</h2>
+					<p>September 2026</p>
+				</div>
+
+				<div class="card-grid">
+
+					<article class="category-card" tabindex="0">
+						<div class="card-top">
+							<span class="card-icon">🍔</span>
+							<span class="status">On track</span>
+						</div>
+						<h3>Food</h3>
+						<p class="amount">KSh 8,500</p>
+						<p class="description">Budget: KSh 12,000</p>
+						<div class="progress">
+							<div class="progress-fill food"></div>
+						</div>
+						<p class="percentage">71% of budget used</p>
+					</article>
+
+					<article class="category-card" tabindex="0">
+						<div class="card-top">
+							<span class="card-icon">🚗</span>
+							<span class="status">On track</span>
+						</div>
+						<h3>Transport</h3>
+						<p class="amount">KSh 4,000</p>
+						<p class="description">Budget: KSh 8,000</p>
+						<div class="progress">
+							<div class="progress-fill transport"></div>
+						</div>
+						<p class="percentage">50% of budget used</p>
+					</article>
+
+					<article class="category-card" tabindex="0">
+						<div class="card-top">
+							<span class="card-icon">🏠</span>
+							<span class="status">Paid</span>
+						</div>
+						<h3>Rent</h3>
+						<p class="amount">KSh 20,000</p>
+						<p class="description">Budget: KSh 20,000</p>
+						<div class="progress">
+							<div class="progress-fill rent"></div>
+						</div>
+						<p class="percentage">100% of budget used</p>
+					</article>
+
+					<article class="category-card" tabindex="0">
+						<div class="card-top">
+							<span class="card-icon">🎬</span>
+							<span class="status">On track</span>
+						</div>
+						<h3>Entertainment</h3>
+						<p class="amount">KSh 5,000</p>
+						<p class="description">Budget: KSh 10,000</p>
+						<div class="progress">
+							<div class="progress-fill entertainment"></div>
+						</div>
+						<p class="percentage">50% of budget used</p>
+					</article>
+
+					<article class="category-card" tabindex="0">
+						<div class="card-top">
+							<span class="card-icon">💰</span>
+							<span class="status savings-status">Saving</span>
+						</div>
+						<h3>Savings</h3>
+						<p class="amount">KSh 10,000</p>
+						<p class="description">Goal: KSh 15,000</p>
+						<div class="progress">
+							<div class="progress-fill savings"></div>
+						</div>
+						<p class="percentage">67% of savings goal</p>
+					</article>
+
+					<article class="category-card" tabindex="0">
+						<div class="card-top">
+							<span class="card-icon">💡</span>
+							<span class="status">On track</span>
+						</div>
+						<h3>Utilities</h3>
+						<p class="amount">KSh 5,000</p>
+						<p class="description">Budget: KSh 8,000</p>
+						<div class="progress">
+							<div class="progress-fill utilities"></div>
+						</div>
+						<p class="percentage">63% of budget used</p>
+					</article>
+
+				</div>
+			</section>
+
+			<footer class="footer">
+				<p>© 2026 SpendWise. Manage your money wisely.</p>
+			</footer>
+
+		</main>
+	</div>
+
+</body>
+</html>
